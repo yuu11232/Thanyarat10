@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Colombina | คาเฟ่ธีมโคลัมบิน่า Genshin Impact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="moon-stripe"></div>
+  
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        Café <span>Colombina</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html" class="active">หน้าแรก</a></li>
+          <li><a href="menu.html">เมนู</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
+          <li><a href="gallery.html">แกลเลอรี่</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>ยินดีต้อนรับสู่ <span>Café Colombina</span></h1>
+      <p>คาเฟ่ใต้แสงจันทร์ สงบ ลึกลับ และงดงาม<br>เหมือนได้พักผ่อนเคียงข้าง The Damselette</p>
+      <div>
+        <a href="menu.html" class="btn btn-primary">ดูเมนูของเรา</a>
+        <a href="contact.html" class="btn btn-secondary">จองโต๊ะ</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h2>บรรยากาศแห่งแสงจันทร์</h2>
+      <div class="underline"></div>
+      <p>ทุกมุมของร้านถูกออกแบบให้รู้สึกสงบและลึกลับ</p>
+    </div>
+    <div class="features">
+      <div class="feature-card">
+        <div class="icon">🕊️</div>
+        <h3>ความบริสุทธิ์</h3>
+        <p>โทนสีขาว ม่วงอ่อน และฟ้าใส สื่อถึงความบริสุทธิ์และปีกของนกพิราบ</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🌙</div>
+        <h3>แสงจันทร์</h3>
+        <p>ไฟนุ่มนวล เงียบสงบ เหมือนนั่งอยู่ใต้แสงจันทร์ใน Nod-Krai</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">☕</div>
+        <h3>กาแฟพิเศษ</h3>
+        <p>เมนูเครื่องดื่มและขนมที่ตั้งชื่อตามธีมพระจันทร์และตัวละคร</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: white; max-width: 100%; padding: 4rem 1.5rem;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div class="section-title">
+        <h2>เมนูแนะนำจากแสงจันทร์</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Moonlit Latte</h4>
+            <p>ลาเต้ลาเวนเดอร์ หอมนุ่ม เหมือนแสงจันทร์</p>
+          </div>
+          <div class="price">฿135</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Damselette's Tea</h4>
+            <p>ชาสมุนไพรผสมดอกไม้ รสสงบ</p>
+          </div>
+          <div class="price">฿120</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Dove Wings Cake</h4>
+            <p>เค้กนุ่มสีขาว ตกแต่งด้วยครีมรูปปีก</p>
+          </div>
+          <div class="price">฿155</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Frost Moon Affogato</h4>
+            <p>ไอศกรีมวานิลลา ราดเอสเปรสโซเย็น</p>
+          </div>
+          <div class="price">฿145</div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="menu.html" class="btn btn-primary">ดูเมนูทั้งหมด</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Café Colombina</h4>
+        <p>คาเฟ่ธีมโคลัมบิน่า จาก Genshin Impact<br>สถานที่สงบภายใต้แสงจันทร์</p>
+        <div class="socials">
+          <a href="#">📘</a>
+          <a href="#">📷</a>
+          <a href="#">🐦</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>เปิดทำการ</h4>
+        <p>จันทร์ - ศุกร์: 10:00 - 21:00<br>
+        เสาร์ - อาทิตย์: 11:00 - 22:00</p>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อเรา</h4>
+        <p>📍 88 ถนนอารีย์ กรุงเทพฯ<br>
+        📞 02-888-7788<br>
+        ✉️ hello@cafecolombina.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Café Colombina. แรงบันดาลใจจาก Columbina · Genshin Impact
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

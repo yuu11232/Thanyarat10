@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ติดต่อเรา | Café Colombina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="moon-stripe"></div>
+  
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        Café <span>Colombina</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="menu.html">เมนู</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
+          <li><a href="gallery.html">แกลเลอรี่</a></li>
+          <li><a href="contact.html" class="active">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>ติดต่อเรา</h1>
+    <p>มานั่งพักผ่อนใต้แสงจันทร์ด้วยกันนะ</p>
+  </section>
+
+  <section class="section">
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>ข้อมูลการติดต่อ</h3>
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <div>
+            <strong>ที่อยู่</strong><br>
+            88 ถนนอารีย์ แขวงพญาไท<br>
+            เขตราชเทวี กรุงเทพมหานคร 10400
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">📞</span>
+          <div>
+            <strong>โทรศัพท์</strong><br>
+            02-888-7788<br>
+            089-123-4567
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">✉️</span>
+          <div>
+            <strong>อีเมล</strong><br>
+            hello@cafecolombina.com<br>
+            reservation@cafecolombina.com
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">🕐</span>
+          <div>
+            <strong>เวลาทำการ</strong><br>
+            จันทร์ - ศุกร์: 10:00 - 21:00<br>
+            เสาร์ - อาทิตย์: 11:00 - 22:00
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="icon">🚇</span>
+          <div>
+            <strong>การเดินทาง</strong><br>
+            BTS อารีย์ ทางออก 2 เดินประมาณ 5 นาที
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>ส่งข้อความถึงเรา</h3>
+        <form onsubmit="event.preventDefault(); alert('ขอบคุณสำหรับข้อความ! เราจะติดต่อกลับโดยเร็วที่สุด 🌙');">
+          <div class="form-group">
+            <label>ชื่อของคุณ</label>
+            <input type="text" placeholder="กรอกชื่อ" required>
+          </div>
+          <div class="form-group">
+            <label>อีเมล</label>
+            <input type="email" placeholder="example@email.com" required>
+          </div>
+          <div class="form-group">
+            <label>หัวข้อ</label>
+            <input type="text" placeholder="เช่น จองโต๊ะ, สอบถามเมนู">
+          </div>
+          <div class="form-group">
+            <label>ข้อความ</label>
+            <textarea placeholder="เขียนข้อความของคุณที่นี่..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">ส่งข้อความ</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Café Colombina</h4>
+        <p>คาเฟ่ธีมโคลัมบิน่า จาก Genshin Impact<br>สถานที่สงบภายใต้แสงจันทร์</p>
+        <div class="socials">
+          <a href="#">📘</a>
+          <a href="#">📷</a>
+          <a href="#">🐦</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>เปิดทำการ</h4>
+        <p>จันทร์ - ศุกร์: 10:00 - 21:00<br>
+        เสาร์ - อาทิตย์: 11:00 - 22:00</p>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อเรา</h4>
+        <p>📍 88 ถนนอารีย์ กรุงเทพฯ<br>
+        📞 02-888-7788<br>
+        ✉️ hello@cafecolombina.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Café Colombina. แรงบันดาลใจจาก Columbina · Genshin Impact
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

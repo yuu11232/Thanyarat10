@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เกี่ยวกับเรา | Café Colombina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="moon-stripe"></div>
+  
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        Café <span>Colombina</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="menu.html">เมนู</a></li>
+          <li><a href="about.html" class="active">เกี่ยวกับเรา</a></li>
+          <li><a href="gallery.html">แกลเลอรี่</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>เกี่ยวกับเรา</h1>
+    <p>เรื่องราวใต้แสงจันทร์</p>
+  </section>
+
+  <section class="section">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>จุดเริ่มต้นของ Café Colombina</h2>
+        <p>Café Colombina เกิดจากความหลงใหลในตัวละคร <strong>Columbina</strong> จากเกม Genshin Impact — The Damselette ผู้สงบ ลึกลับ และงดงามราวกับแสงจันทร์</p>
+        <p>เราต้องการสร้างพื้นที่ที่ให้ความรู้สึกเหมือนได้เดินเข้าไปในโลกของเธอ โทนสีขาว ม่วงอ่อน ฟ้าใส และแสงไฟนุ่มนวล ทุกอย่างถูกออกแบบมาเพื่อให้ผู้มาเยือนรู้สึกสงบและถูกโอบกอดด้วยความเงียบสงบ</p>
+        <p>ชื่อ “Colombina” มาจากคำภาษาอิตาลีที่แปลว่า “นกพิราบตัวน้อย” สัญลักษณ์ของความบริสุทธิ์และความสงบ ซึ่งเราได้นำมาเป็นแรงบันดาลใจหลักของร้าน</p>
+        <p>ที่นี่ไม่ใช่แค่คาเฟ่ แต่เป็นสถานที่ที่คุณสามารถนั่งพักผ่อน ฟังเพลงเบา ๆ และจิบเครื่องดื่มท่ามกลางบรรยากาศที่เหมือนอยู่ในความฝันใต้แสงจันทร์</p>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800" alt="บรรยากาศคาเฟ่">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: white; max-width: 100%;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
+      <div class="section-title">
+        <h2>สิ่งที่เรายึดถือ</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="features">
+        <div class="feature-card">
+          <div class="icon">🕊️</div>
+          <h3>ความบริสุทธิ์</h3>
+          <p>เราเลือกใช้วัตถุดิบคุณภาพดีและสร้างบรรยากาศที่สะอาด สงบ โปร่งโล่ง</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🌙</div>
+          <h3>ความสงบ</h3>
+          <p>แสงไฟนุ่ม ดนตรีเบา และพื้นที่ที่ออกแบบให้รู้สึกผ่อนคลายอย่างแท้จริง</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✨</div>
+          <h3>ความงดงาม</h3>
+          <p>ทุกรายละเอียดถูกใส่ใจ ตั้งแต่เมนูไปจนถึงการตกแต่ง ให้ความรู้สึกเหมือนอยู่ในงานศิลปะ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Café Colombina</h4>
+        <p>คาเฟ่ธีมโคลัมบิน่า จาก Genshin Impact</p>
+      </div>
+      <div class="footer-col">
+        <h4>เปิดทำการ</h4>
+        <p>จันทร์ - ศุกร์: 10:00 - 21:00<br>เสาร์ - อาทิตย์: 11:00 - 22:00</p>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อเรา</h4>
+        <p>📍 88 ถนนอารีย์ กรุงเทพฯ<br>📞 02-888-7788</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Café Colombina. แรงบันดาลใจจาก Columbina · Genshin Impact</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

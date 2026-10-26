@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แกลเลอรี่ | Café Colombina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="moon-stripe"></div>
+  
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        Café <span>Colombina</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="menu.html">เมนู</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
+          <li><a href="gallery.html" class="active">แกลเลอรี่</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>แกลเลอรี่</h1>
+    <p>ภาพบรรยากาศและมุมสวย ๆ ภายในร้าน</p>
+  </section>
+
+  <section class="section">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600" alt="กาแฟและบรรยากาศ">
+        <div class="caption">มุมกาแฟใต้แสงนุ่ม</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" alt="โต๊ะนั่ง">
+        <div class="caption">โต๊ะไม้โทนม่วงอ่อน</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600" alt="เครื่องชงกาแฟ">
+        <div class="caption">มุมบาริสต้า</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600" alt="เค้ก">
+        <div class="caption">ขนมหวานธีมพระจันทร์</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600" alt="ภายในร้าน">
+        <div class="caption">โซนนั่งเล่นสงบ</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600" alt="หน้าต่าง">
+        <div class="caption">มุมหน้าต่างแสงธรรมชาติ</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600" alt="เครื่องดื่ม">
+        <div class="caption">Moonlit Latte</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600" alt="บรรยากาศเย็น">
+        <div class="caption">บรรยากาศยามเย็น</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600" alt="ของตกแต่ง">
+        <div class="caption">ของตกแต่งธีมพระจันทร์</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Café Colombina</h4>
+        <p>คาเฟ่ธีมโคลัมบิน่า จาก Genshin Impact</p>
+      </div>
+      <div class="footer-col">
+        <h4>เปิดทำการ</h4>
+        <p>จันทร์ - ศุกร์: 10:00 - 21:00<br>เสาร์ - อาทิตย์: 11:00 - 22:00</p>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อเรา</h4>
+        <p>📍 88 ถนนอารีย์ กรุงเทพฯ<br>📞 02-888-7788</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Café Colombina. แรงบันดาลใจจาก Columbina · Genshin Impact</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

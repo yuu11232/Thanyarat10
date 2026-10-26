@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เมนู | Café Colombina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="moon-stripe"></div>
+  
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌙</span>
+        Café <span>Colombina</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="menu.html" class="active">เมนู</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
+          <li><a href="gallery.html">แกลเลอรี่</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>เมนูแห่งแสงจันทร์</h1>
+    <p>เครื่องดื่มและขนมที่สร้างแรงบันดาลใจจาก Columbina</p>
+  </section>
+
+  <section class="section">
+    <div class="menu-category">
+      <h3>☕ เครื่องดื่มกาแฟ & ชา</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Moonlit Latte</h4>
+            <p>ลาเต้ลาเวนเดอร์ หอมนุ่ม ราวกับแสงจันทร์</p>
+          </div>
+          <div class="price">฿135</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Damselette's Tea</h4>
+            <p>ชาสมุนไพรดอกไม้ขาว รสสงบเงียบ</p>
+          </div>
+          <div class="price">฿120</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Frost Moon Cold Brew</h4>
+            <p>กาแฟสกัดเย็น เพิ่มกลิ่นวานิลลาและลาเวนเดอร์</p>
+          </div>
+          <div class="price">฿125</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Kuutar Cappuccino</h4>
+            <p>คาปูชิโน่ฟองนมหนา โรยผงดอกไม้สีม่วง</p>
+          </div>
+          <div class="price">฿130</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Silent Night Chocolate</h4>
+            <p>ช็อกโกแลตร้อนเข้มข้น ผสมดอกอัญชัน</p>
+          </div>
+          <div class="price">฿140</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Dove's Milk Tea</h4>
+            <p>ชานมไข่มุกสูตรพิเศษ หวานละมุน</p>
+          </div>
+          <div class="price">฿115</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>🍰 ขนมหวาน</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Dove Wings Cake</h4>
+            <p>เค้กชิฟฟ่อนสีขาว ครีมรูปปีกนกพิราบ</p>
+          </div>
+          <div class="price">฿155</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Moon Halo Tart</h4>
+            <p>ทาร์ตครีมชีส ตกแต่งด้วยเยลลี่รูปพระจันทร์</p>
+          </div>
+          <div class="price">฿145</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Frost Bloom Macaron</h4>
+            <p>มาการองลาเวนเดอร์และไวโอเล็ต (3 ชิ้น)</p>
+          </div>
+          <div class="price">฿120</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Silent Tears Pudding</h4>
+            <p>พุดดิ้งนมสด ราดซอสเบอร์รี่สีม่วง</p>
+          </div>
+          <div class="price">฿110</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Celestial Mille Crepe</h4>
+            <p>เครปเค้กชั้นบาง ครีมนมสดและลาเวนเดอร์</p>
+          </div>
+          <div class="price">฿160</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Ribbon Cookie Set</h4>
+            <p>คุกกี้รูปโบว์และปีก กล่องละ 6 ชิ้น</p>
+          </div>
+          <div class="price">฿135</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>🥪 ของว่างเบา ๆ</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Moonlit Sandwich</h4>
+            <p>แซนด์วิชแฮมชีส ขนมปังนุ่มสีม่วงอ่อน</p>
+          </div>
+          <div class="price">฿125</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Frost Salad Bowl</h4>
+            <p>สลัดผักสด น้ำสลัดโยเกิร์ตดอกไม้</p>
+          </div>
+          <div class="price">฿140</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Dove Toast</h4>
+            <p>ขนมปังปิ้งครีมชีส + แยมเบอร์รี่</p>
+          </div>
+          <div class="price">฿95</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Night Sky Pasta</h4>
+            <p>พาสต้าครีมซอส โรยดอกไม้แห้งสีม่วง</p>
+          </div>
+          <div class="price">฿165</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Café Colombina</h4>
+        <p>คาเฟ่ธีมโคลัมบิน่า จาก Genshin Impact</p>
+      </div>
+      <div class="footer-col">
+        <h4>เปิดทำการ</h4>
+        <p>จันทร์ - ศุกร์: 10:00 - 21:00<br>เสาร์ - อาทิตย์: 11:00 - 22:00</p>
+      </div>
+      <div class="footer-col">
+        <h4>ติดต่อเรา</h4>
+        <p>📍 88 ถนนอารีย์ กรุงเทพฯ<br>📞 02-888-7788</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Café Colombina. แรงบันดาลใจจาก Columbina · Genshin Impact</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
